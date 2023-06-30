@@ -1,38 +1,77 @@
-.App {
+.bannerBG {
+  background-color: #1B2941;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.bannerBBG {
+  background-color: #25546E;
+  border: 1px solid #1B2941;
+}
+
+.bannerPicture {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bannerRow {
+  margin-top: 15px;
+}
+.bannerTitle {
+  color:white;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bannerSubtitle {
+  color:white;
+  text-align: center;
+  margin-top: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.card a {
+  text-decoration: none;
+}
+
+.card .card-body {
+  background-color: #1B2941;
+  color: #F2F2F0;
+}
+
+.card-title {
+  text-align: center;
+}
+
+
+.generalTitle {
+  color:white;
+  text-align: center;
+}
+
+.generalBG {
+  background-color: #1B2941;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.horizontal {
+    margin: 10px 0;
+    height: 1px;
+    border: none;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, #4ba8db));
+}
+
+.signUpContainer {
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a .signUpButton {
+  background-color: #306f91;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
