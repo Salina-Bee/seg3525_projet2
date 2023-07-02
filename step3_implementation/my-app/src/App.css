@@ -17,7 +17,7 @@
   margin-top: 15px;
 }
 .bannerTitle {
-  color:white;
+  color:#F2F2F0;
   text-align: center;
 }
 
@@ -65,8 +65,30 @@
   justify-content: center;
 }
 
+a p {
+  color: #F2F2F0;
+}
+
+a .signInButtonNotNav {
+  background-color: #306f91;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+a .signInButtonNotNav:hover {
+  background-color: #1B2941;
+}
+
 a .signUpButton {
   background-color: #306f91;
+  border: none;
   font-weight: bold;
   font-size: 20px;
   margin-top: 10px;
@@ -74,4 +96,145 @@ a .signUpButton {
   padding-bottom: 15px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+a .signUpButton:hover {
+  background-color: #1B2941;
+}
+
+.productFilterTitle {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.filterContainer {
+  background-color: #25546E;
+  padding-left: 20px;
+}
+
+form .filterBtn {
+  background-color: #1B2941;
+  border: none;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+form .clearBtn {
+  background-color: #1B2941;
+  border: none;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+form .filterBtn:hover, form .clearBtn:hover {
+  background-color: #1B2941 !important;
+}
+
+.form-check-input:checked {
+  background-color: #1B2941 !important;
+  border-color: #1B2941 !important;
+}
+
+.productImage {
+  height: 200px;
+  object-fit:contain;
+}
+
+.productDetailImage {
+  object-fit: contain;
+}
+
+.cards {
+  display: flex;
+  align-items: stretch;
+}
+
+.productCard {
+  height: 100%;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.productTitle {
+  font-size: 12px;
+}
+
+.productBtnsContainer {
+  text-align: center;
+}
+
+
+.productBtnContainer1 {
+  text-align: right;
+}
+
+
+.prevBtn {
+  background-color: #1B2941 !important;
+  border: none !important; 
+  font-weight: bold !important;
+  margin-right: 10px !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.nextBtn {
+  background-color: #1B2941 !important;
+  border: none !important;
+  font-weight: bold !important;
+  margin-left: 10px !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+form .infoBtn {
+  background-color: #1B2941;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right:10px;
+  border-radius: 20px;
+  border:none;
+}
+
+form .infoBtn:hover {
+  background-color: #1B2941;
+}
+
+.filterHeader {
+  display: flex;
+}
+
+.row .backBtn {
+  background-color: #1B2941;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right:10px;
+  border:none;
+}
+
+.row .backBtn:hover, .backBtn:active {
+  background-color: #1B2941 !important;
 }

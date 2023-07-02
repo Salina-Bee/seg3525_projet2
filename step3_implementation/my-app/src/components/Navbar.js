@@ -12,7 +12,7 @@ import './Navbar.css'
 const NavbarComponent = () => {
   return (
     <Navbar expand="lg" activeKey="/home" collapseOnSelect>
-	        <Navbar.Brand href="/home">
+	        <Navbar.Brand href="/seg3525_projet2">
 	          <img src={logo} width="45" height="45"/>
 	          The Worldbuilder's Workshop
 	        </Navbar.Brand>
@@ -21,19 +21,19 @@ const NavbarComponent = () => {
 	        <div className="center-navbar ms-auto">
 		        <Navbar.Collapse id="responsive-navbar-nav">
 		          <Nav.Item>
-		            <Link to="/">Home</Link>
+		            <Link to="/seg3525_projet2">Home</Link>
 		          </Nav.Item>
 		          <Nav.Item>
-		            <Link to="/products">Products</Link>
+		            <Link to="/seg3525_projet2/products">Products</Link>
 		          </Nav.Item>
 		          <Nav.Item>
-		            <Link to="/services">Services</Link>
+		            <Link to="/seg3525_projet2/services">Services</Link>
 		          </Nav.Item>
 		          <Nav.Item>
-		            <Link to="/community">Community</Link>
+		            <Link to="/seg3525_projet2/community">Community</Link>
 		          </Nav.Item>
 		          <Nav.Item>
-		            <Link to="/signin"><Button className="signInButton" as="input" type="button" value="Sign In"/></Link>
+		            <Link to="/seg3525_projet2/signin"><Button className="signInButton" as="input" type="button" value="Sign In"/></Link>
 		          </Nav.Item>       
 		        </Navbar.Collapse>
 	        </div>

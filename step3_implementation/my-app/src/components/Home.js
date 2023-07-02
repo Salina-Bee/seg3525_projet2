@@ -13,7 +13,6 @@ import ProductPic from '../images/products.png';
 import ServicePic from '../images/services.jpg';
 import CommunityPic from '../images/community.jpg';
 
-import '../App.css'
 
 const Home = () => {
 	return (
@@ -71,16 +70,18 @@ const Home = () => {
           </Col>
 
 
-          <Col xs={3}>
+          <Col xs={3} style={{"margin-left": "20px"}}>
                 
           <Card style={{border: "none", width: "18rem" }}>
-            <Link to='/products'>
+            <Link to='/seg3525_projet2/products'>
             <Card.Img variant="top" src={ProductPic} />
 
             <Card.Body>
               <Card.Title>Products</Card.Title>
               <Card.Text>
-                Browse through a variety of tools and supplies that will 
+                Browse through a variety of tools and supplies 
+                that will help you bring your ideas to life! 
+                <br/> <br/> <br/>
               </Card.Text>
             </Card.Body>
             
@@ -94,7 +95,7 @@ const Home = () => {
           <Col xs={3}>
 
           <Card style={{border: "none", width: "18rem"}}>
-            <Link to='/services'>
+            <Link to='/seg3525_projet2/services'>
             <Card.Img variant="top" src={ServicePic} />
             <Card.Body>
               <Card.Title>Services</Card.Title>
@@ -113,7 +114,7 @@ const Home = () => {
           <Col xs={3}>
 
           <Card style={{border: "none", width: "18rem"}}>
-            <Link to='/community'>
+            <Link to='/seg3525_projet2/community'>
             <Card.Img variant="top" src={CommunityPic} />
             <Card.Body>
               <Card.Title>Community</Card.Title>
@@ -133,9 +134,9 @@ const Home = () => {
       </Container>
 
       <Container className="signUpContainer">
-        <hr className="horizontal"/><br/>
+        <br/><hr className="horizontal"/><br/>
         <h4 className="bannerSubtitle">Join the adventure today.</h4>
-        <Link to="/signup"><Button className="signUpButton" as="input" type="button" value="Sign Up"/></Link>
+        <Link to="/seg3525_projet2/signup"><Button className="signUpButton" as="input" type="button" value="Sign Up"/></Link>
         <br/>
         <br/>
       </Container>

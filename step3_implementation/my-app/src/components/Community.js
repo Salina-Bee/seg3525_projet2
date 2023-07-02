@@ -1,22 +1,38 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
+
+// react-bootstrap
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
 const Community = () => {
-	const [posts, setPosts] = useState([
-		{title: 'Rules (PLEASE READ BEFORE POSTING)', body: '', author: 'WBWorkshopStaff', id: 1, isPinned: true},
-		{title: "A Beginner's Guide to Worldbuilding", body: '', author: 'WBWorkshopStaff', id: 2, isPinned: true},
-		{title: 'User post #1', body: '', author: 'User123', id:3, isPinned: false}
-	]);
+	
 
 
 	return (
 		<div>
-			<h6>Pinned</h6>
-			{posts.map((post) => (
-				<div className="pinnedPost-preview" key={post.id}>
-					This is where posts will go.
-				</div>
-			))}
+			<Container>
+				<br/>
+				<Row className="justify-content-center">
+				
+				<Col xs={10}>
+				<Row>
+					<Col xs={1} className="bannerBBG">
+					</Col>
+					<Col xs={10} className="bannerBG">
+					<h4 className="bannerTitle">Community</h4>
+					</Col>
+					<Col xs={1} className="bannerBBG">
+					</Col>
+				</Row>
+				</Col>
+				
+				</Row>
 
+			</Container>
 
 
 		</div>
